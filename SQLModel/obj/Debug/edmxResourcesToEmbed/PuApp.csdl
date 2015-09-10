@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PuAppModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="PuAppEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tb_ADS" EntityType="PuAppModel.tb_ADS" />
+    <EntitySet Name="tb_ApplyVip" EntityType="PuAppModel.tb_ApplyVip" />
+    <EntitySet Name="tb_Article" EntityType="PuAppModel.tb_Article" />
+    <EntitySet Name="tb_Code" EntityType="PuAppModel.tb_Code" />
+    <EntitySet Name="tb_Collection" EntityType="PuAppModel.tb_Collection" />
+    <EntitySet Name="tb_ComPany" EntityType="PuAppModel.tb_ComPany" />
+    <EntitySet Name="tb_Feedback" EntityType="PuAppModel.tb_Feedback" />
+    <EntitySet Name="tb_LoginState" EntityType="PuAppModel.tb_LoginState" />
+    <EntitySet Name="tb_Personal" EntityType="PuAppModel.tb_Personal" />
+    <EntitySet Name="tb_Product" EntityType="PuAppModel.tb_Product" />
+    <EntitySet Name="tb_ProPhone" EntityType="PuAppModel.tb_ProPhone" />
+    <EntitySet Name="tb_Replay" EntityType="PuAppModel.tb_Replay" />
+    <EntitySet Name="tb_SMS" EntityType="PuAppModel.tb_SMS" />
+    <EntitySet Name="tb_Sort" EntityType="PuAppModel.tb_Sort" />
+    <EntitySet Name="tb_User" EntityType="PuAppModel.tb_User" />
+  </EntityContainer>
+  <EntityType Name="tb_ADS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Site" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="AType" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="Img" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="Href" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="AOrder" Type="Int32" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="PublishTime" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_ApplyVip">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Phone" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+    <Property Name="Note" Type="String" Nullable="false" MaxLength="350" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_Article">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SortID" Type="Int32" Nullable="false" />
+    <Property Name="ITop" Type="Int32" Nullable="false" />
+    <Property Name="TopBeginTime" Type="DateTime" Nullable="false" />
+    <Property Name="TopEndTime" Type="DateTime" Nullable="false" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="Sumary" Type="String" Nullable="false" MaxLength="550" Unicode="false" FixedLength="false" />
+    <Property Name="Content" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="FromTo" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="MinImg" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="PublishTime" Type="DateTime" Nullable="false" />
+    <Property Name="AOrder" Type="Int32" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Code">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Phone" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="IUse" Type="Int32" Nullable="false" />
+    <Property Name="CType" Type="Int32" Nullable="false" />
+    <Property Name="Device" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_Collection">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NewsID" Type="Int32" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="UID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_ComPany">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Account" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Company" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+    <Property Name="IVip" Type="Int32" Nullable="false" />
+    <Property Name="VipBginTime" Type="DateTime" Nullable="false" />
+    <Property Name="VipEndTime" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Feedback">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FeedType" Type="Int32" Nullable="false" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="UserPhone" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="UserMail" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="Content" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Other" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+    <Property Name="Restate" Type="Int32" Nullable="false" />
+    <Property Name="ReText" Type="String" Nullable="false" MaxLength="1000" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_LoginState">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UID" Type="Int32" Nullable="false" />
+    <Property Name="LoginTime" Type="DateTime" Nullable="false" />
+    <Property Name="ExitTime" Type="DateTime" Nullable="false" />
+    <Property Name="ErrorTime" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Personal">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="NickName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Sex" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Mail" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="HeadImg" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="UID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Product">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="350" Unicode="false" FixedLength="false" />
+    <Property Name="Summary" Type="String" Nullable="false" MaxLength="350" Unicode="false" FixedLength="false" />
+    <Property Name="Note" Type="String" Nullable="false" MaxLength="350" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_ProPhone">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Phone" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="Company" Type="String" Nullable="false" MaxLength="350" Unicode="false" FixedLength="false" />
+    <Property Name="ProID" Type="String" Nullable="false" MaxLength="350" Unicode="false" FixedLength="false" />
+    <Property Name="Note" Type="String" Nullable="false" MaxLength="350" Unicode="false" FixedLength="false" />
+    <Property Name="BeginTime" Type="DateTime" Nullable="false" />
+    <Property Name="EndTime" Type="DateTime" Nullable="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Replay">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ArticleID" Type="Int32" Nullable="false" />
+    <Property Name="UID" Type="Int32" Nullable="false" />
+    <Property Name="Content" Type="String" Nullable="false" MaxLength="450" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_SMS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Content" Type="String" Nullable="false" MaxLength="350" Unicode="false" FixedLength="false" />
+    <Property Name="ProID" Type="String" Nullable="false" MaxLength="350" Unicode="false" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Sort">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SortName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="IndexLevel" Type="Int32" Nullable="false" />
+    <Property Name="PrentID" Type="Int32" Nullable="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+    <Property Name="SOrder" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Phone" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="PassWord" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="State" Type="Int32" Nullable="false" />
+    <Property Name="ComPanyId" Type="Int32" Nullable="false" />
+    <Property Name="RegTime" Type="DateTime" Nullable="false" />
+    <Property Name="Level" Type="Int32" Nullable="false" />
+    <Property Name="VipBginTime" Type="DateTime" Nullable="false" />
+    <Property Name="VipEndTime" Type="DateTime" Nullable="false" />
+    <Property Name="Device" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>

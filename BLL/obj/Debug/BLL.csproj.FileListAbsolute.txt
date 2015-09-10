@@ -1,0 +1,75 @@
+E:\App_Code\微信公众平台\weixin\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\App_Code\微信公众平台\weixin\BLL\bin\Debug\BLL.dll
+E:\App_Code\微信公众平台\weixin\BLL\bin\Debug\BLL.pdb
+E:\App_Code\微信公众平台\weixin\BLL\bin\Debug\Common.dll
+E:\App_Code\微信公众平台\weixin\BLL\bin\Debug\DataModel.dll
+E:\App_Code\微信公众平台\weixin\BLL\bin\Debug\IBLL.dll
+E:\App_Code\微信公众平台\weixin\BLL\bin\Debug\IDAL.dll
+E:\App_Code\微信公众平台\weixin\BLL\bin\Debug\Common.pdb
+E:\App_Code\微信公众平台\weixin\BLL\bin\Debug\IBLL.pdb
+E:\App_Code\微信公众平台\weixin\BLL\bin\Debug\IDAL.pdb
+E:\App_Code\微信公众平台\weixin\BLL\bin\Debug\DataModel.pdb
+E:\App_Code\微信公众平台\weixin\BLL\obj\Debug\BLL.dll
+E:\App_Code\微信公众平台\weixin\BLL\obj\Debug\BLL.pdb
+E:\App_Code\微信公众平台\weixin\BLL\bin\Debug\DAL.dll
+E:\App_Code\微信公众平台\weixin\BLL\bin\Debug\DAL.pdb
+E:\App_Code\微信公众平台cnblog\weixin\BLL\bin\Debug\BLL.dll
+E:\App_Code\微信公众平台cnblog\weixin\BLL\bin\Debug\BLL.pdb
+E:\App_Code\微信公众平台cnblog\weixin\BLL\bin\Debug\Common.dll
+E:\App_Code\微信公众平台cnblog\weixin\BLL\bin\Debug\DAL.dll
+E:\App_Code\微信公众平台cnblog\weixin\BLL\bin\Debug\DataModel.dll
+E:\App_Code\微信公众平台cnblog\weixin\BLL\bin\Debug\IBLL.dll
+E:\App_Code\微信公众平台cnblog\weixin\BLL\bin\Debug\IDAL.dll
+E:\App_Code\微信公众平台cnblog\weixin\BLL\bin\Debug\Common.pdb
+E:\App_Code\微信公众平台cnblog\weixin\BLL\bin\Debug\DAL.pdb
+E:\App_Code\微信公众平台cnblog\weixin\BLL\bin\Debug\IBLL.pdb
+E:\App_Code\微信公众平台cnblog\weixin\BLL\bin\Debug\IDAL.pdb
+E:\App_Code\微信公众平台cnblog\weixin\BLL\bin\Debug\DataModel.pdb
+E:\App_Code\微信公众平台cnblog\weixin\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\App_Code\微信公众平台cnblog\weixin\BLL\obj\Debug\BLL.dll
+E:\App_Code\微信公众平台cnblog\weixin\BLL\obj\Debug\BLL.pdb
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\bin\Debug\BLL.dll
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\bin\Debug\BLL.pdb
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\bin\Debug\Common.dll
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\bin\Debug\DAL.dll
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\bin\Debug\DataModel.dll
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\bin\Debug\IBLL.dll
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\bin\Debug\IDAL.dll
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\bin\Debug\Common.pdb
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\bin\Debug\DAL.pdb
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\bin\Debug\IBLL.pdb
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\bin\Debug\IDAL.pdb
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\bin\Debug\DataModel.pdb
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\obj\Debug\BLL.dll
+C:\Other\F\项目\代码\微信平台博客园demo\BLL\obj\Debug\BLL.pdb
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\BLL.dll
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\BLL.pdb
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\Common.dll
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\DAL.dll
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\DataModel.dll
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\IBLL.dll
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\IDAL.dll
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\Common.pdb
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\DAL.pdb
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\IBLL.pdb
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\IDAL.pdb
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\DataModel.pdb
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\obj\Debug\BLL.dll
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\obj\Debug\BLL.pdb
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\BLL.dll
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\BLL.pdb
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\Common.dll
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\DAL.dll
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\DataModel.dll
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\IBLL.dll
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\IDAL.dll
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\Common.pdb
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\DAL.pdb
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\IBLL.pdb
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\IDAL.pdb
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\bin\Debug\DataModel.pdb
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\obj\Debug\BLL.dll
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\BLL\obj\Debug\BLL.pdb

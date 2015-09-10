@@ -1,0 +1,5 @@
+E:\App_Code\微信公众平台\weixin\SQLModel\bin\Debug\SQLModel.dll
+E:\App_Code\微信公众平台\weixin\SQLModel\bin\Debug\SQLModel.pdb
+E:\App_Code\微信公众平台\weixin\SQLModel\obj\Debug\ResolveAssemblyReference.cache
+E:\App_Code\微信公众平台\weixin\SQLModel\obj\Debug\SQLModel.dll
+E:\App_Code\微信公众平台\weixin\SQLModel\obj\Debug\SQLModel.pdb

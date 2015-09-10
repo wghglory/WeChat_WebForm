@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PuAppModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="PuAppModelStoreContainer">
+    <EntitySet Name="tb_ADS" EntityType="PuAppModel.Store.tb_ADS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_ApplyVip" EntityType="PuAppModel.Store.tb_ApplyVip" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_Article" EntityType="PuAppModel.Store.tb_Article" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_Code" EntityType="PuAppModel.Store.tb_Code" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_Collection" EntityType="PuAppModel.Store.tb_Collection" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_ComPany" EntityType="PuAppModel.Store.tb_ComPany" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_Feedback" EntityType="PuAppModel.Store.tb_Feedback" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_LoginState" EntityType="PuAppModel.Store.tb_LoginState" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_Personal" EntityType="PuAppModel.Store.tb_Personal" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_Product" EntityType="PuAppModel.Store.tb_Product" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_ProPhone" EntityType="PuAppModel.Store.tb_ProPhone" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_Replay" EntityType="PuAppModel.Store.tb_Replay" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_SMS" EntityType="PuAppModel.Store.tb_SMS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_Sort" EntityType="PuAppModel.Store.tb_Sort" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="tb_User" EntityType="PuAppModel.Store.tb_User" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="tb_ADS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Site" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="AType" Type="int" Nullable="false" />
+    <Property Name="Title" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="Img" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="Href" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="AOrder" Type="int" Nullable="false" />
+    <Property Name="State" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="PublishTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_ApplyVip">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Phone" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="State" Type="int" Nullable="false" />
+    <Property Name="Note" Type="varchar" Nullable="false" MaxLength="350" />
+  </EntityType>
+  <EntityType Name="tb_Article">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SortID" Type="int" Nullable="false" />
+    <Property Name="ITop" Type="int" Nullable="false" />
+    <Property Name="TopBeginTime" Type="datetime" Nullable="false" />
+    <Property Name="TopEndTime" Type="datetime" Nullable="false" />
+    <Property Name="Title" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="Sumary" Type="varchar" Nullable="false" MaxLength="550" />
+    <Property Name="Content" Type="ntext" Nullable="false" />
+    <Property Name="FromTo" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="MinImg" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="PublishTime" Type="datetime" Nullable="false" />
+    <Property Name="AOrder" Type="int" Nullable="false" />
+    <Property Name="State" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Code">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Phone" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="IUse" Type="int" Nullable="false" />
+    <Property Name="CType" Type="int" Nullable="false" />
+    <Property Name="Device" Type="varchar" Nullable="false" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="tb_Collection">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="NewsID" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="UID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_ComPany">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Account" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Company" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="State" Type="int" Nullable="false" />
+    <Property Name="IVip" Type="int" Nullable="false" />
+    <Property Name="VipBginTime" Type="datetime" Nullable="false" />
+    <Property Name="VipEndTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Feedback">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FeedType" Type="int" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="UserPhone" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="UserMail" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="Title" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="Content" Type="ntext" Nullable="false" />
+    <Property Name="Other" Type="varchar" Nullable="false" MaxLength="1000" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="State" Type="int" Nullable="false" />
+    <Property Name="Restate" Type="int" Nullable="false" />
+    <Property Name="ReText" Type="varchar" Nullable="false" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="tb_LoginState">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UID" Type="int" Nullable="false" />
+    <Property Name="LoginTime" Type="datetime" Nullable="false" />
+    <Property Name="ExitTime" Type="datetime" Nullable="false" />
+    <Property Name="ErrorTime" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Personal">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NickName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Sex" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Mail" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="HeadImg" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="UID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Product">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="350" />
+    <Property Name="Summary" Type="varchar" Nullable="false" MaxLength="350" />
+    <Property Name="Note" Type="varchar" Nullable="false" MaxLength="350" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="State" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_ProPhone">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Phone" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="Company" Type="varchar" Nullable="false" MaxLength="350" />
+    <Property Name="ProID" Type="varchar" Nullable="false" MaxLength="350" />
+    <Property Name="Note" Type="varchar" Nullable="false" MaxLength="350" />
+    <Property Name="BeginTime" Type="datetime" Nullable="false" />
+    <Property Name="EndTime" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="State" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Replay">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ArticleID" Type="int" Nullable="false" />
+    <Property Name="UID" Type="int" Nullable="false" />
+    <Property Name="Content" Type="varchar" Nullable="false" MaxLength="450" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="State" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_SMS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Content" Type="varchar" Nullable="false" MaxLength="350" />
+    <Property Name="ProID" Type="varchar" Nullable="false" MaxLength="350" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="State" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Sort">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SortName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="IndexLevel" Type="int" Nullable="false" />
+    <Property Name="PrentID" Type="int" Nullable="false" />
+    <Property Name="State" Type="int" Nullable="false" />
+    <Property Name="SOrder" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Phone" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="PassWord" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="State" Type="int" Nullable="false" />
+    <Property Name="ComPanyId" Type="int" Nullable="false" />
+    <Property Name="RegTime" Type="datetime" Nullable="false" />
+    <Property Name="Level" Type="int" Nullable="false" />
+    <Property Name="VipBginTime" Type="datetime" Nullable="false" />
+    <Property Name="VipEndTime" Type="datetime" Nullable="false" />
+    <Property Name="Device" Type="varchar" Nullable="false" MaxLength="150" />
+  </EntityType>
+</Schema>

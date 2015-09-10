@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PuAppModelStoreContainer" CdmEntityContainer="PuAppEntities">
+    <EntitySetMapping Name="tb_ADS">
+      <EntityTypeMapping TypeName="PuAppModel.tb_ADS">
+        <MappingFragment StoreEntitySet="tb_ADS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Site" ColumnName="Site" />
+          <ScalarProperty Name="AType" ColumnName="AType" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+          <ScalarProperty Name="Href" ColumnName="Href" />
+          <ScalarProperty Name="AOrder" ColumnName="AOrder" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="PublishTime" ColumnName="PublishTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_ApplyVip">
+      <EntityTypeMapping TypeName="PuAppModel.tb_ApplyVip">
+        <MappingFragment StoreEntitySet="tb_ApplyVip">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Article">
+      <EntityTypeMapping TypeName="PuAppModel.tb_Article">
+        <MappingFragment StoreEntitySet="tb_Article">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SortID" ColumnName="SortID" />
+          <ScalarProperty Name="ITop" ColumnName="ITop" />
+          <ScalarProperty Name="TopBeginTime" ColumnName="TopBeginTime" />
+          <ScalarProperty Name="TopEndTime" ColumnName="TopEndTime" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Sumary" ColumnName="Sumary" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="FromTo" ColumnName="FromTo" />
+          <ScalarProperty Name="MinImg" ColumnName="MinImg" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="PublishTime" ColumnName="PublishTime" />
+          <ScalarProperty Name="AOrder" ColumnName="AOrder" />
+          <ScalarProperty Name="State" ColumnName="State" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Code">
+      <EntityTypeMapping TypeName="PuAppModel.tb_Code">
+        <MappingFragment StoreEntitySet="tb_Code">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="IUse" ColumnName="IUse" />
+          <ScalarProperty Name="CType" ColumnName="CType" />
+          <ScalarProperty Name="Device" ColumnName="Device" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Collection">
+      <EntityTypeMapping TypeName="PuAppModel.tb_Collection">
+        <MappingFragment StoreEntitySet="tb_Collection">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NewsID" ColumnName="NewsID" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UID" ColumnName="UID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_ComPany">
+      <EntityTypeMapping TypeName="PuAppModel.tb_ComPany">
+        <MappingFragment StoreEntitySet="tb_ComPany">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="IVip" ColumnName="IVip" />
+          <ScalarProperty Name="VipBginTime" ColumnName="VipBginTime" />
+          <ScalarProperty Name="VipEndTime" ColumnName="VipEndTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Feedback">
+      <EntityTypeMapping TypeName="PuAppModel.tb_Feedback">
+        <MappingFragment StoreEntitySet="tb_Feedback">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FeedType" ColumnName="FeedType" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserPhone" ColumnName="UserPhone" />
+          <ScalarProperty Name="UserMail" ColumnName="UserMail" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Restate" ColumnName="Restate" />
+          <ScalarProperty Name="ReText" ColumnName="ReText" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_LoginState">
+      <EntityTypeMapping TypeName="PuAppModel.tb_LoginState">
+        <MappingFragment StoreEntitySet="tb_LoginState">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UID" ColumnName="UID" />
+          <ScalarProperty Name="LoginTime" ColumnName="LoginTime" />
+          <ScalarProperty Name="ExitTime" ColumnName="ExitTime" />
+          <ScalarProperty Name="ErrorTime" ColumnName="ErrorTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Personal">
+      <EntityTypeMapping TypeName="PuAppModel.tb_Personal">
+        <MappingFragment StoreEntitySet="tb_Personal">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NickName" ColumnName="NickName" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="HeadImg" ColumnName="HeadImg" />
+          <ScalarProperty Name="UID" ColumnName="UID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Product">
+      <EntityTypeMapping TypeName="PuAppModel.tb_Product">
+        <MappingFragment StoreEntitySet="tb_Product">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="State" ColumnName="State" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_ProPhone">
+      <EntityTypeMapping TypeName="PuAppModel.tb_ProPhone">
+        <MappingFragment StoreEntitySet="tb_ProPhone">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="ProID" ColumnName="ProID" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="BeginTime" ColumnName="BeginTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="State" ColumnName="State" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Replay">
+      <EntityTypeMapping TypeName="PuAppModel.tb_Replay">
+        <MappingFragment StoreEntitySet="tb_Replay">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ArticleID" ColumnName="ArticleID" />
+          <ScalarProperty Name="UID" ColumnName="UID" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="State" ColumnName="State" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_SMS">
+      <EntityTypeMapping TypeName="PuAppModel.tb_SMS">
+        <MappingFragment StoreEntitySet="tb_SMS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="ProID" ColumnName="ProID" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="State" ColumnName="State" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_Sort">
+      <EntityTypeMapping TypeName="PuAppModel.tb_Sort">
+        <MappingFragment StoreEntitySet="tb_Sort">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SortName" ColumnName="SortName" />
+          <ScalarProperty Name="IndexLevel" ColumnName="IndexLevel" />
+          <ScalarProperty Name="PrentID" ColumnName="PrentID" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="SOrder" ColumnName="SOrder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_User">
+      <EntityTypeMapping TypeName="PuAppModel.tb_User">
+        <MappingFragment StoreEntitySet="tb_User">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="PassWord" ColumnName="PassWord" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="ComPanyId" ColumnName="ComPanyId" />
+          <ScalarProperty Name="RegTime" ColumnName="RegTime" />
+          <ScalarProperty Name="Level" ColumnName="Level" />
+          <ScalarProperty Name="VipBginTime" ColumnName="VipBginTime" />
+          <ScalarProperty Name="VipEndTime" ColumnName="VipEndTime" />
+          <ScalarProperty Name="Device" ColumnName="Device" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

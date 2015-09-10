@@ -1,0 +1,24 @@
+E:\App_Code\微信公众平台\weixin\SQLModel\obj\Debug\ResolveAssemblyReference.cache
+E:\App_Code\微信公众平台\weixin\SQLModel\bin\Debug\DataModel.dll
+E:\App_Code\微信公众平台\weixin\SQLModel\bin\Debug\DataModel.pdb
+E:\App_Code\微信公众平台\weixin\SQLModel\obj\Debug\DataModel.dll
+E:\App_Code\微信公众平台\weixin\SQLModel\obj\Debug\DataModel.pdb
+E:\App_Code\微信公众平台cnblog\weixin\SQLModel\bin\Debug\DataModel.dll
+E:\App_Code\微信公众平台cnblog\weixin\SQLModel\bin\Debug\DataModel.pdb
+E:\App_Code\微信公众平台cnblog\weixin\SQLModel\obj\Debug\ResolveAssemblyReference.cache
+E:\App_Code\微信公众平台cnblog\weixin\SQLModel\obj\Debug\DataModel.dll
+E:\App_Code\微信公众平台cnblog\weixin\SQLModel\obj\Debug\DataModel.pdb
+C:\Other\F\项目\代码\微信平台博客园demo\SQLModel\bin\Debug\DataModel.dll
+C:\Other\F\项目\代码\微信平台博客园demo\SQLModel\bin\Debug\DataModel.pdb
+C:\Other\F\项目\代码\微信平台博客园demo\SQLModel\obj\Debug\DataModel.dll
+C:\Other\F\项目\代码\微信平台博客园demo\SQLModel\obj\Debug\DataModel.pdb
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\SQLModel\bin\Debug\DataModel.dll
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\SQLModel\bin\Debug\DataModel.pdb
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\SQLModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\SQLModel\obj\Debug\DataModel.dll
+C:\Documents and Settings\Administrator.PUWORLD-CESHI\桌面\微信公众平台--普通三层常用的webform\微信平台博客园demo\SQLModel\obj\Debug\DataModel.pdb
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\SQLModel\bin\Debug\DataModel.dll
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\SQLModel\bin\Debug\DataModel.pdb
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\SQLModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\SQLModel\obj\Debug\DataModel.dll
+C:\Users\Jun\Desktop\微信公众平台--普通三层常用的webform\微信平台博客园demo\SQLModel\obj\Debug\DataModel.pdb
